@@ -1,11 +1,11 @@
-import neovim
+import pynvim
 
 
-@neovim.plugin
+@pynvim.plugin
 class Main():
     def __init__(self, vim):
         self.vim = vim
 
-    @neovim.function('DoItPython')
+    @pynvim.function('DoItPython')
     def DoItPython(self, args):
         self.vim.command('echo "hello from DoItPython"')

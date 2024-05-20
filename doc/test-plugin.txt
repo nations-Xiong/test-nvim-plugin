@@ -1,0 +1,1 @@
+This is a test plugin writting for neovim.
